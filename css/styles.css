@@ -12,6 +12,7 @@ h1{
     margin-bottom: 0;
     color: #66BFBF;
     font-weight: normal;
+    margin-top: 80px;
 }
 h2{
   font-size: 40px;
@@ -80,23 +81,23 @@ a:hover{
 .top{
   background-color: powderblue;
   position: relative;
+  padding-top: 20px;
 }
 .cloud1{
-  position: absolute;
-  left : 200px;
+    position: absolute;
+    top: 40px;
+    right: 110px;
 }
-.cloud{
+.cloud2{
   position: absolute;
-  right :200px;
-  top : 40px;
+  left: 110px;
 }
 .mountain{
-  position : relative;
-  display: inline-block;
-  right : 60px;
-  left : 20px;
+  position: relative;
+  max-width: 100%;
   top: 4px;
 }
+
 .bottom-container{
   margin-top: 40px;
   background-color: #66BFBF;
